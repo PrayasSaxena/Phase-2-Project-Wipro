@@ -1,2 +1,27 @@
-# Phase-2-Project-Wipro
-DESCRIPTION  Kitchen Story is an e-commerce portal that lets people shop basic food items on their website. The website needs to have the following features:  A search form in the home page to allow entry of the food items to be purchased by the customer.  Based on item details entered, it will show available food items with price.  Once a person selects an item to purchase, they will be redirected to the list of available items. In the next page, they are shown the complete breakout of the order and details of the payment to be made in the payment gateway. When payment is done, they are shown a confirmation page with details of the order.  For the above features to work, there will be an admin backend with the following features:  Admin login page where admin can change password after login if he wants to  A master list of food items available for purchase  A functionality to add or remove food items
+# Frontend
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
