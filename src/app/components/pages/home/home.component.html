@@ -1,0 +1,24 @@
+
+<app-header></app-header>
+<app-search></app-search>
+<ul>
+  <li *ngFor = "let item of items">
+    <a routerLink="/item/{{item.id}}">
+      <img [src]="item.imageUrl" [alt]="item.name">
+      <div class = "content">
+        <div class="name">
+          {{item.name}}
+        </div>
+        <div class="price">
+          <span>
+            {{item.price | currency:'INR'}} /kg
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+  </li>
+</ul>

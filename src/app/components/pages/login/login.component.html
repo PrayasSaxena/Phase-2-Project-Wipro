@@ -1,0 +1,29 @@
+<div class = "container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class = "text-centre">
+          <h1>LOGIN DETAILS</h1>
+          <h6>Enter Username and Password</h6>
+
+        </div>
+            <form >
+              <div class="mb-3">
+                <label for="exampleInputEmail1" >USERNAME</label>
+                <input  type="email" class="form-control" name="email" [(ngModel)]="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1">PASSWORD</label>
+                <input  type="password" class="form-control" name="password" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary" (click)="login()">SIGN IN</button>
+            </form>
+
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,52 @@
+import { Items } from "./app/ToAll/Models/Items";
+
+export const sample_items: Items[] = [
+  {
+    id:'1',
+    name:'Tomato',
+    price:50.00,
+    imageUrl:'assets/Tomato.jpg'
+  },
+  {
+    id:'2',
+    name:'Onion',
+    price:30.00,
+    imageUrl:'assets/Onions.jpg'
+  },
+  {
+    id:'3',
+    name:'Potato',
+    price:25.00,
+    imageUrl:'assets/Potato.jpg'
+  },
+  {
+    id:'4',
+    name:'Carrot',
+    price:30.00,
+    imageUrl:'assets/Carrot.jpg'
+  },
+  {
+    id:'5',
+    name:'Beetroot',
+    price:25.00,
+    imageUrl:'assets/Beetroot.jpg'
+  },
+  {
+    id:'6',
+    name:'Apple',
+    price:180.00,
+    imageUrl:'assets/Apple.jpg'
+  },
+  {
+    id:'7',
+    name:'Pomegranate',
+    price:210.00,
+    imageUrl:'assets/Pomegranate.jpg'
+  },
+  {
+    id:'8',
+    name:'Mango',
+    price:50.00,
+    imageUrl:'assets/Mango.jpg'
+  },
+]

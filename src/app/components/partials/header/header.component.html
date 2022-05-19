@@ -1,0 +1,17 @@
+<header>
+  <div class = "container">
+    <a  routerLink="/home" class ="logo"><i class="bi bi-cart"></i>KITHCEN STORY</a>
+    <nav>
+      <ul>
+        <li class = "menu-container">
+          <button routerLink="/login">SIGN OUT</button>
+        </li>
+        <li>
+          <a routerLink="/cart-page">
+            CART <span *ngIf="cartQuantity">{{cartQuantity}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
